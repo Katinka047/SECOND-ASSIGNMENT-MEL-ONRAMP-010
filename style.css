@@ -1,0 +1,101 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0 !important;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+.box{
+    text-align: center;
+    margin: 20px 30%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 10px lightgrey;
+    background-color: hsl(225, 100%, 98%);
+}
+.First-image{
+    background-image: url('../images/illustration-hero.svg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 40vh;
+    border-radius: 20px 20px 0 0;
+}
+.First-section{
+    padding: 20px 100px;
+}
+.First-section-one{
+    margin-bottom: 20px;
+}
+.First-section-one p{
+    font-size: 1.5em;
+    color: hsl(224, 23%, 55%);
+}
+
+.Amount{
+    display: flex;
+    justify-content:space-between;
+    padding: 5px 20px;
+    background-color:rgb(240, 235, 235);
+}
+.Amount-one{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Amount img{
+    margin-top: 20px;
+    height: 50%;
+    padding: 0 5px;
+}
+.Amount-two p{
+    font-size: 1.2em;
+}
+.Amount-three{
+    margin-top: 10px;
+    text-decoration: underline;
+    font-size: 1.2em;
+    color: blue;
+}
+.Amount-three:hover{
+    cursor: -webkit-grabbing;
+    text-decoration: none;
+    color:rgb(105, 46, 173);
+}
+.pricing{
+    padding-top: 20px;
+    color: hsl(224, 23%, 55%);
+}
+
+.payment{
+    background-color: hsl(245, 75%, 52%);
+    padding: 20px 55px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    color: white;
+    margin: 30px 0;
+    border: none;
+}
+.payment:hover{
+    background-color:rgb(105, 46, 173);
+    border: none;
+    cursor: grabbing;
+}
+
+.cancel{
+    border: none;
+    padding: 20px 20px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+    background-color:inherit;
+    color: gray;
+}
+.cancel:hover{
+    border: none;
+    cursor: grab;
+    color: black;
+}
